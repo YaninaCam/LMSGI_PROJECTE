@@ -1,0 +1,507 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fleur+De+Leah&family=Poppins:ital,wght@0,200;0,300;0,400;0,600;1,500&family=Tapestry&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Fleur+De+Leah&family=Lilita+One&family=Poppins:ital,wght@0,200;0,300;0,400;0,600;1,500&family=Tapestry&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Fleur+De+Leah&family=Kalnia+Glaze:wght@100..700&family=Lilita+One&family=Poppins:ital,wght@0,200;0,300;0,400;0,600;1,500&family=Tapestry&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: "Poppins", serif;
+}
+
+.fondo0 {
+    background-image: url(img/FONDO0.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.fondo1 {
+    background-image: url(img/img_fondo/fondo1.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.fondo3 {
+    background-image: url(img/img_fondo/fondo3.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.header {
+    display: flex;
+    min-height: 65px;
+    background-image: url(img/img_fondo/fondo4.jpg);
+    background-repeat: no-repeat;
+    margin-bottom: 45px;
+    position: sticky;
+    top: 20px;
+
+}
+
+.menu {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu label {
+    display: initial;
+    cursor: pointer;
+    display: none;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 5px;
+    color: rgb(22, 7, 20);
+    display: block;
+    margin-inline: 10px;
+    font-weight: bold;
+}
+
+.menu .navbar ul li a:hover {
+    color: #5593cd;
+}
+#menu:checked ~ .navbar{
+    display: initial;
+}
+
+#menu {
+    display: none;
+}
+
+.icono {
+    width: 30px;  
+    height: 18px;
+}
+
+@media(max-width:991px){
+    .container{
+        min-height: 0px;
+    }
+    .menu {
+        top: 0;
+        padding: 20px;
+    }
+    .menu label {
+        display: initial;
+    }
+    .menu .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-image: url(img/img_fondo/fondo4.jpg);
+        display: none;
+    }
+    .menu .navbar ul li {
+        width: 100%;
+    }
+
+    #menu:checked ~ .navbar {
+        display: inline;
+    }
+}   
+
+
+
+/*:::::Inicio*/
+
+.intro h1 {
+    text-align: center;
+}
+
+.intro p {
+    margin-bottom: 50px;
+    padding: 0 145px;
+    text-align: justify;
+    color: white;
+    font-size: 17px;
+}
+
+.portada {
+    margin-bottom: 45px;
+}
+
+.textini {
+    text-align: justify;
+    margin-bottom: 25px;
+    padding: 0 80px;
+}
+
+.textini p {
+    color: white;
+    font-size: 17px;
+
+}
+
+.blog {
+    text-align: justify;
+    margin-bottom: 25px;
+    padding: 0 80px;
+}
+
+.blog h2 {
+    color:chartreuse;
+}
+
+.blog p{
+    color: white;
+    font-style: oblique;
+    font-size: 17px;
+}
+.btn {
+    font-size: 25px;
+    font-weight: 20px;
+    color: blue;
+}
+
+h1 {
+    color: darkcyan;
+    font-family: "Tapestry", serif;
+    font-weight: 400px;
+}
+header .logo img {
+    height: 65px;
+    margin: 7px;
+    width: 120px; 
+}
+.blog {
+    display: -webkit-inline-flex;
+    align-items: center;
+    padding-left: 180px;
+    padding-right: 180px;
+}
+.textinicio {
+    padding-left: 50px;
+}
+.imginicio{
+    height: 490px; 
+    border-radius: 20px;
+}
+
+
+/*:::::Tendencia*/
+
+.cuerpo {
+    margin-left: 150px;
+    display: ruby-base;
+}
+.texto {
+    text-shadow: 2px 2px 5px aquamarine;
+}
+.cuadro1 {
+    height: 350px;
+}
+.cuadro2 {
+    height: 300px;
+}
+.cuadro3 {
+    height: 250px;
+}
+.cuadro4 {
+    height: 200px;
+}
+
+.diseño {
+    height: 230px;
+    padding-left: 20px;
+}
+
+
+.call h1 {
+    text-align: center;
+    padding-top: 45px;
+    padding-bottom: 20px;
+}
+.cuello{
+    height: 350px; 
+    padding-top: 0px;
+}
+.liquido{
+    height: 350px;
+}
+.vaquero{
+    height: 400px; 
+}
+.texll{
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.texll p {
+    text-align: center;
+    display: flex;
+    margin-left: 15px;
+    color: white;
+}
+.stylecalle {
+    display: flex;
+    flex-wrap: nowrap;
+    animation: calle 9s infinite;   padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    
+}
+.calle {
+    height: 450px;
+    margin: 5px;
+    padding: 2px;
+}
+.texcall {
+    color: rgb(210, 207, 249);
+    text-align: center;
+    text-shadow: 3px 8px 5px rgb(157, 155, 252);
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+@keyframes calle {
+    0%{margin-left: 0%;}
+    20% {margin-left: 0%;}
+
+    25%{margin-left: -100%;}
+    45% {margin-left: -100%;}
+}
+
+
+/*:::::Moda*/
+
+div .imgmoda .textmoda{
+    position: relative;
+    display: inline;
+}
+.imgmoda{
+    height: 300px;
+    width: 195px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+}
+.moda {
+    display: flex;
+justify-content: center;
+}
+
+
+
+/*:::::Evento*/
+
+.eventos {
+margin-left: 90px;
+margin-right: 50px;
+}
+.evento{
+    border-radius: 25px;
+    background-color: black;
+    box-shadow: 0 0 10px white;
+    padding-top: 35px;
+    width: 270px;
+    margin-right: 70px;
+    margin-bottom: 70px;
+    float: left;
+    width: 500px;
+    height: 370px;
+    text-align: center;
+}
+.evento h2 {
+    font-family: "Kalnia Glaze", serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+    font-variation-settings: "wdth" 100px;
+    text-shadow: 0 0 3px rgb(206, 199, 224);
+}
+.evento p {
+    color: white;
+    margin-right: 21px;
+    margin-left: 20px;
+    text-align: justify;
+}
+
+/*:::::Sobre mi*/
+
+.sobre-mi {
+    margin: 20px 0;
+    text-align: center;
+}
+.sobre-mi h2 {
+    margin: 10px;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+}
+#sobre_mi, #habilidades, #estudios, #proyectos{
+    text-align: center;
+}
+
+#habilidades ul{
+    text-align: left;
+}
+
+
+table{
+    border:1px solid black;
+    border-collapse: collapse;
+    margin:auto;
+    text-align: center;
+    background-color: rgb(250, 232, 248);
+    width: 100%;
+    margin-bottom: 10px;
+}
+caption{
+    font-size: 15px;
+}
+section{
+    margin:auto;
+}
+th {
+    background-color: rgba(243, 162, 253, 0.655);
+    text-align: center;
+    font-weight: bold;
+    padding: 15px;
+    font-size: 20px;
+}
+td{
+    padding: 12px;
+    border: 1px solid black;
+}
+.descripcion{
+    width: 220px;
+}
+.conocimientos{
+    width: 220px;
+}
+
+
+/*:::::Sugerencias*/
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+}
+
+.containerform {
+    background-color: rgb(172, 146, 225);
+    width: 550px;
+    height: 800px;
+    box-shadow: 0 0 10px rgb(220, 203, 218);
+    border-radius: 30px;
+
+}
+
+.form {
+    padding: 25px 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form h1 {
+    text-shadow: 2px 2px 3px black;
+}
+.form p {
+    padding-bottom: 12px;
+}
+
+label {
+    font-size: 16px;
+    color: rgb(71, 69, 69);
+    margin-top: 0px;
+}
+
+.box {
+    
+    background-color: rgb(197, 183, 224);
+    padding: 2px;
+    border-radius: 10px;
+    width: 250px;
+    height: 25px;
+    margin-bottom: 17px;   
+}
+
+.opciones {
+    text-align: center;
+}
+.opciones label {
+    margin-right: 17px;
+}
+
+input {
+    margin-bottom: 20px;
+}
+
+textarea{
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 300px;
+    height: 120px;
+}
+select {
+    border-radius: 7px;
+    margin-top: 7px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+button{
+    border-radius: 7px;
+    margin-top: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+
+
+
+
+/*:::::Pie de Pagina*/
+
+footer{
+    background-image: url(img/footer/fondo.jpg);
+    margin-top: 20px;
+    width: 100%;
+    margin-top: 90px;
+}
+
+.pie-pagina {
+    width: 100%;
+    padding-right: 100px;
+}
+
+ .pie-pagina .grupo-1 {
+    max-width: 700px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap:50;
+    padding: 2px 0px;
+ }
+
+ .sociales {
+    width: 45px;   
+ }
+
+ .foo-box .contactos{
+    display: flex;
+ }
